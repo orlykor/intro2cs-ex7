@@ -1,0 +1,46 @@
+orlykor12
+203595541
+orly koren
+
+I discussed the exercise with: -
+
+=============================
+=  README for ex7- Image Morphing part b
+=============================
+
+python3gui.py im1.jpg im2.jpg 40 images 500 350
+python3.3 ex7.py
+
+
+==================
+=  Description:  =
+==================
+
+in part B we did the rest of the funcs. 
+first we made a list of matching points between the source or target triangles
+(doesnt matter which) and the intermediate triangle (which we found, one func 
+before). then we needed to get the pixels from the source and target 
+images, with the use of all the 3 triangles we found. that way we make the
+other intermediate image, and in the last func we made, we do a sequences of
+images between the source and the target, using the funcs we made.
+that way, when we have all the sequences of images, we prass the butten 
+morphing and it runs the last func and from there the others.
+last, we get a folder with all the new images (with the deafult num of 40)
+ 
+
+=============================
+=  List of submitted files: =
+=============================
+
+ex7.py
+README
+
+
+======================
+=  Special Comments  =
+======================
+
+
+ 
+
+
